@@ -1,4 +1,4 @@
-package com.dvn.estock.core.configuration;
+package com.dvn.estock.api.configuration;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -47,7 +47,7 @@ public class HibernateConfig{
             return metadata.getSessionFactoryBuilder().build();
 
         }catch(Throwable e){
-            System.err.println("Falha ao inicial a SessionFactory." + e);
+            System.err.println("Failed to start SessionFactory." + e);
             throw new ExceptionInInitializerError(e);
         }
     }

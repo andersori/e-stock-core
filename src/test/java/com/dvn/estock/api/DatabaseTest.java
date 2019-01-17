@@ -1,8 +1,8 @@
-package com.dvn.estock.core;
+package com.dvn.estock.api;
 
-import com.dvn.estock.core.configuration.DatabaseConfig;
-import com.dvn.estock.core.configuration.HibernateConfig;
-import com.dvn.estock.core.util.ConstantEnv;
+import com.dvn.estock.api.configuration.DatabaseConfig;
+import com.dvn.estock.api.configuration.HibernateConfig;
+import com.dvn.estock.api.util.ConstantEnv;
 
 import org.hibernate.Session;
 
@@ -25,6 +25,6 @@ public class DatabaseTest {
         HibernateConfig.shutdown();
 
         System.out.println(DatabaseConfig.getDialect());
-        System.out.println(ConstantEnv.getDatabaseConfEnv());
+        System.out.println(ConstantEnv.getDatabaseConfgDirectoryEnv());
     }
 }

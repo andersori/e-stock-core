@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.dvn</groupId>
-  <artifactId>estock.core</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>estock.api</artifactId>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
-  <name>estock.core</name>
+  <name>estock.api</name>
   <url>http://maven.apache.org</url>
 
   <properties>

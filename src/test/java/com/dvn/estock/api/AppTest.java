@@ -1,4 +1,4 @@
-package com.dvn.estock.core;
+package com.dvn.estock.api;
 
 public class AppTest {
 
